@@ -1,7 +1,7 @@
 .grid{
     width :300px;
     height: 300px;
-    border: solid black 1px;
+    border: solid green 1px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -12,19 +12,30 @@
 }
 
 .invader{
-    background-color: purple;
-    border-radius: 10px;
+    background-image: url("alien.png");
+    background-size: cover;
 }
 
 .shooter{
-    background-color: green;
+    background-image: url("spaceship.jpg");
+    background-size: cover;
 
 }
 
 .laser{
-    background-color: orange;
+    background-image: url("lightning.png");
+    background-size: cover;
 }
 
 .boom {
-    background-color: red;
+    background-image: url("boom.png");
+    background-size: cover;
+}
+
+body{
+    background-image: url("stars.jpg");
+}
+
+h1{
+    color: green;
 }
